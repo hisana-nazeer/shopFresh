@@ -20,7 +20,8 @@ const Header = () => {
         <Link to={""}>
           <div className="flex items-center">
             <img src={OIP} alt="Logo" className="w-25 h-10 max-w-full mr-2" />
-            <h1 class="text-3xl font-bold text-gray-800">Shop Fresh</h1>
+            <h1 class="text-3xl font-bold text-gray-800 fresh-text">Shop <span class="text-green-600">Fresh</span></h1>
+
           </div>
         </Link>
         
